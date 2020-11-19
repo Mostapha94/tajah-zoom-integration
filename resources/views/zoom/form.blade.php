@@ -16,7 +16,7 @@
   <body class="gray-background rtl">
     <div class="container">
         <div class="row">
-            <h1><a style="font-size:22px;" class="btn btn-info" href="{{route('meeting.index')}}">All Meetigs</a></h1>
+            <h1><a style="font-size:22px;" class="btn btn-info" href="{{route('meeting.index')}}">All Meetings</a></h1>
         </div>
         <div class="row">
             <div class="col-md-12">
