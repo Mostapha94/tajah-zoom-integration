@@ -25,7 +25,6 @@
                         <tr class="primary-bg">
                             <th>{{__('ID')}}</th>
                             <th>{{__('Topic')}}</th>
-                            <th>{{__('Type')}}</th>
                             <th>{{__('Joining')}}</th>
                             <th>{{__('Start time')}}</th>
                             <th>{{__('Action')}}</th>
@@ -37,7 +36,6 @@
                     <tr>
                         <td>{{$meeting->id}}</td>
                         <td>{{$meeting->topic}}</td>
-                        <td>{{$meeting->type}}</td>
                         <td><a class="btn btn-success" href="{{route('meeting.join',['id'=>$meeting->id])}}">Join</td>
                         <td>{{$meeting->start_time}}</td>                        <td>
                             <a href="{{route('meeting.show',['id'=>$meeting->id])}}" class="btn btn-primary">Update<a>
